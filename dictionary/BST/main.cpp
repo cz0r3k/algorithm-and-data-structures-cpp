@@ -39,6 +39,7 @@ node *Insert(int v)
     }
     return p;
 }
+
 node *GetRightMin(node *root)
 {
     if (!root)
@@ -52,6 +53,7 @@ node *GetRightMin(node *root)
     }
     return p;
 }
+
 node *Delete(int v)
 {
 

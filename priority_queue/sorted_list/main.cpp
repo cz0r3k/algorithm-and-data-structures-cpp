@@ -34,6 +34,7 @@ elem *getMax()
 {
     return head;
 }
+
 void printRev(elem *p)
 {
     if (!p)
@@ -43,6 +44,7 @@ void printRev(elem *p)
     printRev(p->next);
     std::cout << p->value << " ";
 }
+
 void print(elem *p)
 {
     while (p)

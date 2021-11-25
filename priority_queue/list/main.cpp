@@ -13,6 +13,7 @@ void insert(int v)
     p->next = head;
     head = p;
 }
+
 void printAll()
 {
     elem *p = head;
@@ -23,6 +24,7 @@ void printAll()
     }
     std::cout << std::endl;
 }
+
 elem *search(int v)
 {
     sentinel->value = v;
